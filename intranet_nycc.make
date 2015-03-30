@@ -11,35 +11,36 @@ includes[] = "drupal-org.make"
 projects[lync intergration][subdir] = "custom"
 projects[lync intergration][type] = "module"
 projects[lync intergration][download][type] = "git"
-projects[lync intergration][download][url]="git@github.com:nicksmi/nyccintranet.git"
+projects[lync intergration][download][url]="https://github.com/NorthYorkshireCountyCouncil/modlync.git"
 
 projects[nycc][subdir] = "custom"
 projects[nycc][type] = "module"
 projects[nycc][download][type] = "git"
-projects[nycc][download][url]="git@github.com:nicksmi/nyccintranet.git"
+projects[nycc][download][url]="https://github.com/NorthYorkshireCountyCouncil/modnycc.git"
 
 projects[apachesolr_search_blocks][subdir] = "custom"
 projects[apachesolr_search_blocks][type] = "module"
 projects[apachesolr_search_blocks][download][type] = "git"
-projects[apachesolr_search_blocks][download][url]="git@github.com:nicksmi/nyccintranet.git"
+projects[apachesolr_search_blocks][download][url]="https://github.com/NorthYorkshireCountyCouncil/modnyccsolrsearch.git"
 
 projects[nycc_content_types][subdir] = "custom"
 projects[nycc_content_types][type] = "module"
 projects[nycc_content_types][download][type] = "git"
-projects[nycc_content_types][download][url]="git@github.com:nicksmi/nyccintranet.git"
+projects[nycc_content_types][download][url]="https://github.com/NorthYorkshireCountyCouncil/modnycccontenttype.git"
 
 projects[nycc_social][subdir] = "custom"
 projects[nycc_social][type] = "module"
 projects[nycc_social][download][type] = "git"
-projects[nycc_social][download][url]="git@github.com:nicksmi/nyccintranet.git"
+projects[nycc_social][download][url]="https://github.com/NorthYorkshireCountyCouncil/modnyccsocial.git"
+
+; +++++ Theme +++++
+projects[intranet][type] = "theme"
+projects[intranet][download][type] = "git"
+projects[intranet][download][url]="https://github.com/NorthYorkshireCountyCouncil/intranettheme.git"
 
 ; +++++ Profile +++++
 projects[nycc_intranet][type] = "profile"
 projects[nycc_intranet][download][type] = "git"
-projects[nycc_intranet][download][url]="git@github.com:nicksmi/nyccintranet.git"
+projects[nycc_intranet][download][url]="https://github.com/NorthYorkshireCountyCouncil/nyccprofile.git"
 
-
-; +++++ Patches +++++
-
-; projects[redirect][patch][] = "redirect.circular-loops.1796596-146.patch" ; TODO add path to patch
 
