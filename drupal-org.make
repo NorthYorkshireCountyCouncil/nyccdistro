@@ -238,6 +238,10 @@ projects[apachesolr_stats][subdir] = "contrib"
 projects[colorbox][version] = "2.7"
 projects[colorbox][subdir] = "contrib"
 
+projects[Libraries][version] = "2.2"
+projects[Libraries][subdir] = "contrib"
+
+
 ; +++++ Themes +++++
 
 ; omega
