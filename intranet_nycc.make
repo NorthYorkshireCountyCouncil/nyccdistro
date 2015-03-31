@@ -48,10 +48,15 @@ projects[nycc_social_icons][type] = "module"
 projects[nycc_social_icons][download][type] = "git"
 projects[nycc_social_icons][download][url]="https://github.com/NorthYorkshireCountyCouncil/nyccsocialicons.git"
 
+projects[nycc_flags][subdir] = "custom"
+projects[nycc_flags][type] = "module"
+projects[nycc_flags][download][type] = "git"
+projects[nycc_flags][download][url]="https://github.com/NorthYorkshireCountyCouncil/nyccsocialicons.git"
+
 ; +++++ Theme +++++
 projects[intranet][type] = "theme"
 projects[intranet][download][type] = "git"
-projects[intranet][download][url]="https://github.com/NorthYorkshireCountyCouncil/intranettheme.git"
+projects[intranet][download][url]="https://github.com/NorthYorkshireCountyCouncil/nyccflags.git"
 
 ; +++++ Profile +++++
 projects[nycc_intranet][type] = "profile"
