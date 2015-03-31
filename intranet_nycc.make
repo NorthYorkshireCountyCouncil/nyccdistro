@@ -33,6 +33,21 @@ projects[nycc_social][type] = "module"
 projects[nycc_social][download][type] = "git"
 projects[nycc_social][download][url]="https://github.com/NorthYorkshireCountyCouncil/modnyccsocial.git"
 
+projects[nycc_pages][subdir] = "custom"
+projects[nycc_pages][type] = "module"
+projects[nycc_pages][download][type] = "git"
+projects[nycc_pages][download][url]="https://github.com/NorthYorkshireCountyCouncil/nyccpages.git"
+
+projects[nycc_forms][subdir] = "custom"
+projects[nycc_forms][type] = "module"
+projects[nycc_forms][download][type] = "git"
+projects[nycc_forms][download][url]="https://github.com/NorthYorkshireCountyCouncil/nyccforms.git"
+
+projects[nycc_social_icons][subdir] = "custom"
+projects[nycc_social_icons][type] = "module"
+projects[nycc_social_icons][download][type] = "git"
+projects[nycc_social_icons][download][url]="https://github.com/NorthYorkshireCountyCouncil/nyccsocialicons.git"
+
 ; +++++ Theme +++++
 projects[intranet][type] = "theme"
 projects[intranet][download][type] = "git"
@@ -42,5 +57,4 @@ projects[intranet][download][url]="https://github.com/NorthYorkshireCountyCounci
 projects[nycc_intranet][type] = "profile"
 projects[nycc_intranet][download][type] = "git"
 projects[nycc_intranet][download][url]="https://github.com/NorthYorkshireCountyCouncil/nyccprofile.git"
-
 

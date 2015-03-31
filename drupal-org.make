@@ -40,11 +40,11 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[event_calendar][version] = "1.9"
-projects[event_calendar][subdir] = "contrib"
-
 projects[entityreference][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
+
+projects[features][version] = "2.4"
+projects[features][subdir] = "contrib"
 
 projects[inline_entity_form][version] = "1.5"
 projects[inline_entity_form][subdir] = "contrib"
@@ -129,6 +129,9 @@ projects[strongarm][subdir] = "contrib"
 
 projects[tabtamer][version] = "1.1"
 projects[tabtamer][subdir] = "contrib"
+
+projects[taxonomy_access][version] = "1.0-rc1"
+projects[taxonomy_access][subdir] = "contrib"
 
 projects[taxonomy_entity_index][version] = "1.0-beta7"
 projects[taxonomy_entity_index][subdir] = "contrib"
@@ -226,6 +229,15 @@ projects[workbench][subdir] = "contrib"
 projects[workbench_moderation][version] = "1.3"
 projects[workbench_moderation][subdir] = "contrib"
 
+projects[active_tags][version] = "2.x-dev"
+projects[active_tags][subdir] = "contrib"
+
+projects[apachesolr_stats][version] = "1.0-beta1"
+projects[apachesolr_stats][subdir] = "contrib"
+
+projects[colorbox][version] = "2.7"
+projects[colorbox][subdir] = "contrib"
+
 ; +++++ Themes +++++
 
 ; omega
@@ -242,4 +254,3 @@ projects[rubik][subdir] = "contrib"
 projects[tao][type] = "theme"
 projects[tao][version] = "3.1"
 projects[tao][subdir] = "contrib"
-
